@@ -9,8 +9,11 @@ x=sum(float_lists)
 print(x)
 #3
 status=[True, False, True, False]
-if "True" in status:
-    print("yes true is prsent")
+newlist=[]
+for x in status:
+    if x==True:
+       newlist.append(x)
+print(len(newlist))
 #4
 mixed_data=[45,"apple",3.14,True,"banana"] 
 print(mixed_data)
