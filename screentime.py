@@ -11,3 +11,4 @@ plt.plot(x,mymodel,color="blue")
 plt.xlabel("x")
 plt.ylabel("y")
 plt.show()
+
